@@ -159,6 +159,7 @@ export const IndexPage = () => {
         <b>Quick links:</b> <a href="https://github.com/ZeroX-DG">Github</a> |{" "}
         <a href="https://zerox-dg.github.io/blog/">Blog</a> |{" "}
         <a href="mailto:viethungax@gmail.com">Email</a> |{" "}
+        <a href="https://twitter.com/ZeroX_Hung">Twitter</a> |{" "}
         <a href="https://www.linkedin.com/in/v-hung/">Linkedin</a>
       </p>
       <h2>What I did I build?</h2>
