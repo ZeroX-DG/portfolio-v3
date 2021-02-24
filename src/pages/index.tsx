@@ -71,9 +71,9 @@ const works = [
       { title: "Github repo", href: "https://github.com/ZeroX-DG/moon" },
       {
         title: "Write-up series",
-        href: "https://zerox-dg.github.io/blog/tags/browser-from-scratch/"
-      }
-    ]
+        href: "https://zerox-dg.github.io/blog/tags/browser-from-scratch/",
+      },
+    ],
   },
   {
     title: "🖼️ Limus",
@@ -81,8 +81,8 @@ const works = [
       "A tool for transforming images/screenshots to create a more professional look. The resulting image can be used to showcase products on website, design, poster and more!",
     links: [
       { title: "Github repo", href: "https://github.com/ZeroX-DG/limus" },
-      { title: "Try it out!", href: "https://limus.netlify.app/" }
-    ]
+      { title: "Try it out!", href: "https://limus.netlify.app/" },
+    ],
   },
   {
     title: "📝 SnippetStore",
@@ -91,13 +91,13 @@ const works = [
     links: [
       {
         title: "Github repo",
-        href: "https://github.com/ZeroX-DG/SnippetStore"
+        href: "https://github.com/ZeroX-DG/SnippetStore",
       },
       {
         title: "Try it out!",
-        href: "https://zerox-dg.github.io/SnippetStoreWeb/"
-      }
-    ]
+        href: "https://zerox-dg.github.io/SnippetStoreWeb/",
+      },
+    ],
   },
   {
     title: "📜 CommitTasks",
@@ -105,9 +105,9 @@ const works = [
     links: [
       {
         title: "Github repo",
-        href: "https://github.com/ZeroX-DG/CommitTasks"
-      }
-    ]
+        href: "https://github.com/ZeroX-DG/CommitTasks",
+      },
+    ],
   },
   {
     title: "📝 Boostnote",
@@ -116,9 +116,9 @@ const works = [
     links: [
       {
         title: "Github repo",
-        href: "https://github.com/BoostIO/Boostnote"
-      }
-    ]
+        href: "https://github.com/BoostIO/Boostnote",
+      },
+    ],
   },
   {
     title: "📄 Sonalus",
@@ -126,14 +126,14 @@ const works = [
     links: [
       {
         title: "Github repo",
-        href: "https://github.com/ZeroX-DG/Sonalus"
+        href: "https://github.com/ZeroX-DG/Sonalus",
       },
       {
         title: "Try it out!",
-        href: "https://zerox-dg.github.io/Sonalus/index.html"
-      }
-    ]
-  }
+        href: "https://zerox-dg.github.io/Sonalus/index.html",
+      },
+    ],
+  },
 ];
 
 export const IndexPage = () => {
@@ -153,7 +153,7 @@ export const IndexPage = () => {
         <a href="https://github.com/ZeroX-DG">build stuff</a> or{" "}
         <a href="https://zerox-dg.github.io/blog/">write about what I learnt</a>{" "}
         via creative writing. I'm also a fan of art, music and{" "}
-        <a href="https://mubi.com/users/9258114/watchlist">great cinema.</a>
+        <a href="https://letterboxd.com/viethung/films/">great cinema.</a>
       </p>
       <p>
         <b>Quick links:</b> <a href="https://github.com/ZeroX-DG">Github</a> |{" "}
@@ -164,13 +164,13 @@ export const IndexPage = () => {
       </p>
       <h2>What I did I build?</h2>
       <p>Here's a list of my latest works if you wish to know more:</p>
-      {works.map(work => (
+      {works.map((work) => (
         <WorkCard>
           <WorkCard.Title>{work.title}</WorkCard.Title>
           <WorkCard.Description>{work.description}</WorkCard.Description>
           <WorkCard.Extra>
             <ul>
-              {work.links.map(link => (
+              {work.links.map((link) => (
                 <li>
                   <a href={link.href}>{link.title}</a>
                 </li>
